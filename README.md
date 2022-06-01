@@ -35,9 +35,13 @@ bash train.sh
 
 For the trained DANet checkpoint, please contact me via E-mail.
 
+Original Image:
+
+![gt](./Visualization/1a0qp3.jpg)
+
 Tampered Image (eyes, mouth and the vomit):
 
-![grad-cam](./Visualization/1a0qp3_c8t8jtf_0.jpg)
+![tampered](./Visualization/1a0qp3_c8t8jtf_0.jpg)
 
 Visualization (with official implementation **Grad-CAM** on the backbone('resnet' block 4) output):
 

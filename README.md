@@ -3,7 +3,7 @@
 用图像分割的视角进行图像篡改区域检测
 
 ![grad-cam](./Visualization/DANet.png)
-
+（DANet Architecture）
 ## Environment
 
 + Ubuntu 16.04.6 LTS （Windows is also fine）

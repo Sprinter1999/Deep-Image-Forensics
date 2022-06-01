@@ -14,7 +14,7 @@
 + Install [nvidia-apex](https://github.com/NVIDIA/apex) in this directory
 + pip install requirements.txt
 + Dataset : PS Battles
-+ image manipulation detection model: MantraNet, **DANet**, Unet, FCN, Deeplabv3...
++ Forensics model zoo: MantraNet, **DANet**, Unet, FCN, Deeplabv3...
 
 ## Usage
 将数据集文件夹ps_battles_orisize放到和train.sh同级目录下

@@ -1,6 +1,6 @@
 #  Image Manipulation Detection via Segmentation
 
-用图像分割的视角进行图像篡改区域检测
+用图像分割的视角进行图像篡改区域检测 (Multimedia课程大作业)
 
 ![grad-cam](./Visualization/DANet.png)
 （DANet Architecture）

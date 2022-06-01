@@ -1,0 +1,9 @@
+需要下载ttach包
+训练好的模型.pt文件应放在当前目录
+在GPU环境下运行jupyter notebook文件(显存开销4G以上)
+可以替换想要分析可视化的网络模块，在最后一个notebook cell调整即可
+
+Need to install ttach package
+put .pt file in this directory
+better run .ipynb notebook with GPU runtime (>4GB momory)
+you can select the specific network layer to conduct visualization by modifying the last cell in the notebook

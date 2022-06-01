@@ -35,7 +35,7 @@ bash train.sh
 
 For the trained DANet checkpoint, please contact me via E-mail.
 
-Tampered Image (eyes, mouth and omitted ink):
+Tampered Image (eyes, mouth and the vomit):
 
 ![grad-cam](./Visualization/1a0qp3_c8t8jtf_0.jpg)
 

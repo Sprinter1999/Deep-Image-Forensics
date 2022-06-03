@@ -1,9 +1,11 @@
 #  Image Manipulation Detection via Segmentation
 
-用图像分割的视角进行图像篡改区域检测
+用图像分割的视角进行图像篡改区域检测 
+
+Multimedia课程大作业，仅供学习参考
 
 ![grad-cam](./Visualization/DANet.png)
-
+（DANet Architecture）
 ## Environment
 
 + Ubuntu 16.04.6 LTS （Windows is also fine）
@@ -14,7 +16,7 @@
 + Install [nvidia-apex](https://github.com/NVIDIA/apex) in this directory
 + pip install requirements.txt
 + Dataset : PS Battles
-+ image manipulation detection model: MantraNet, **DANet**, Unet, FCN, Deeplabv3...
++ Forensics model zoo: MantraNet, **DANet**, Unet, FCN, Deeplabv3...
 
 ## Usage
 将数据集文件夹ps_battles_orisize放到和train.sh同级目录下
@@ -35,9 +37,13 @@ bash train.sh
 
 For the trained DANet checkpoint, please contact me via E-mail.
 
-Tampered Image (eyes, mouth and omitted ink):
+Original Image:
 
-![grad-cam](./Visualization/1a0qp3_c8t8jtf_0.jpg)
+![gt](./Visualization/1a0qp3.jpg)
+
+Tampered Image (eyes, mouth and the vomit):
+
+![tampered](./Visualization/1a0qp3_c8t8jtf_0.jpg)
 
 Visualization (with official implementation **Grad-CAM** on the backbone('resnet' block 4) output):
 

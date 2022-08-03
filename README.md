@@ -2,7 +2,7 @@
 
 用图像分割的视角进行图像篡改区域检测 
 
-Multimedia课程大作业，仅供学习参考
+Multimedia课程大作业，仅供学习参考 (Source codes are based on TA's diligent work)
 
 ![grad-cam](./Visualization/DANet.png)
 （DANet Architecture）
